@@ -1,0 +1,5 @@
+
+development:
+  from: 'from number from Twillo'
+  sid: 'Your Twillo sid goes here'
+  token: 'Your Twillo token id goes here'
