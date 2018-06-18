@@ -1,15 +1,14 @@
 -----------------------------------------------------------------------------------------------
 Steps-to-setup:
 ------------------------------------------------------------------------------------------------
-Update application.yml with your gmial creds
-Update orders.rb with your mobile_number to send sms
-Update order_mailer with valid emails
-Update twillo.yml with proper twillo creds
-Update secret.yml with your secret key
-
-rake/rails db:migrate     #create required tables
-rails db:seed             #seed demo data
-rails s                   #start server
+-> Update application.yml with your gmail creds.
+-> Update orders.rb with your mobile_number to send sms.
+-> Update order_mailer with valid emails.
+-> Update twillo.yml with proper twillo creds.
+-> Update secret.yml with your secret key.
+-> rake/rails db:migrate     #create required tables.
+-> rails db:seed             #seed demo data.
+-> rails s                   #start server.
 ------------------------------------------------------------------------------------------------
 EndPoints:
 
@@ -75,5 +74,6 @@ EndPoints:
 -> triggers when add user odder is called 
 -----------------------------------------------------------------------------------------------
 
+* Improvemnets that can be made:
 
-
+-> custom errors or success messages

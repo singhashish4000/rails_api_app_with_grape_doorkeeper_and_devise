@@ -1,11 +1,13 @@
 source 'https://rubygems.org'
 
-gem "rename"
+#for seeding test data in db
 gem 'faker'
+#for sms
 gem 'twilio-ruby'
+#for api-authorization
 gem 'doorkeeper'
+#fot user-authentication
 gem 'devise'
-gem 'grape-swagger'
 gem 'grape-active_model_serializers'
 gem 'grape'
 gem 'rack-cors', :require => 'rack/cors'
